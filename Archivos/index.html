@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Evaluable</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <a class="question-link">Favoritos</a>
+    </div>
+
+    <!-- PERSONAJES  -->
+    <div id="page">
+
+        <section>
+            <div class="content">
+                <div class="grid">
+                    <!-- CARD -->
+                    <div class="card">
+                        <div class='photo'>
+                        </div>
+                        <div class="footer">
+                            <div class="titles">
+                                <h2 class='card-title'>Titulo</h2>
+                            </div>
+                            <div class="bigger">
+                                <div class="trigger">Ampliar</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id='render-more'>
+                    <button>MOSTRAR MÁS</button>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <!-- MODAL -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./pokemon.jpg"
+                            alt="" />
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Personaje</span>
+                        <div id='render-more'>
+                            <button>ANTERIOR</button>
+                            <button>SIGUIENTE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- MODAL FAVORITOS -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div class="container">
+                <form>
+                    <input class="input" type="text" name="Name" placeholder="Nombre">
+                    <input class="send" type="submit" value="Enviar">
+                </form>
+                    <div class="card-header">
+                        <img src="./pokemon.jpg" alt="Pokémon"/>
+                    </div>
+                <div class="card-body">
+                    <span class="tag">Pokémon</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
